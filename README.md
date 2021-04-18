@@ -22,23 +22,23 @@ For each of the following functionalities, please tick the box if you implemente
 
 [x] Brew coffee \
 [x] Drink coffee \
-[x] Create programme \
+[x] Create programme 
 - administratorul are puterea de a ceea, sterge si edita programele facute
-   - insert\
+   - insert
      - are nevoie de nume, timpul de inceput / sfarsit si id-ul camerei in care activitatea se desfasoara
-   - update\
+   - update
      - la fel ca la insert doar ca are nevoie de id
      - output similar
-   - delete\
+   - delete
       - sterge activitatea in functie de id
 
-[x] Create Room \
+[x] Create Room 
 - administratorul are puterea de a ceea sterge si edita camerele facute
-   - insert\
+   - insert
      - introduce nr. camerei si nr. de locuri disponibile
-   - update\
+   - update
      - la fel ca insert doar ca are nevoie de id-ul camerei existente
-   - delete\
+   - delete
       - sterge camera in functie de id 
    
 [x] User Booking
@@ -50,11 +50,11 @@ For each of the following functionalities, please tick the box if you implemente
    - delete
       - sterge programarea in functie de id
   
-[ ] Adding more admins \
+[ ] Adding more admins 
 - nu a fost implemntata dar urmeaza in cele 2 saptamani, pana primim un raspuns, sa fie adaugata
 [ ] Book a programme
   
-[x] Data output\
+[x] Data output
 - output-ul e format din succsess care indica daca actiunea a fost executata cu succes sau nu si mesajele de eroare in cazul in care datele introduse de admin sunt gresite incomplete sau nu respecta un anumit tipar
 - este facut in asa fel incat sa respecte o structura acolo unde a fost posibil (e posibil sa fie peste tot aceeasi structura dar mai am de lucrat si timpul nu e suficient)
 
