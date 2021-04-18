@@ -21,7 +21,10 @@ In this section, please provide a brief overview of the design of your applicati
 For each of the following functionalities, please tick the box if you implemented it and describe its input and output in your application:
 
 [x] Brew coffee \
-[ ] Create programme \
+[x] Drink coffee \
+[x] Create programme \
+    - after testing i will complete this
+[x] Brain meltdown\
 [ ] Delete programme \
 [ ] Book a programme 
 
@@ -30,30 +33,38 @@ Please highlight all the validations and mechanisms you identified as necessary 
 
 ##### 3rd party libraries (if applicable)
 Please give a brief review of the 3rd party libraries you used and how/ why you've integrated them into your project.
-
+- just personal code written for other application in order to no reinvent the well for the 3rd time 
 ##### Environment
 Please fill in the following table with the technologies you used in order to work at your application. Feel free to add more rows if you want us to know about anything else you used.
 | Name | Choice |
 | ------ | ------ |
 | Operating system (OS) | Ubuntu 20.04.2 LTS |
-| Database  | MySQL 8.0 |
-| Web server| Nginx |
+| Database  | MySQL 10.3.25 |
+| Web server| Nginx 1.18.0 |
 | PHP |  7.4 |
 | IDE | PhpStorm |
 
 ### Testing
 In this section, please list the steps and/ or tools you've used in order to test the behaviour of your solution.
-
+- lots of var_dumps() and a litle help from Postman
 ## Feedback
 In this section, please let us know what is your opinion about this experience and how we can improve it:
 
 1. Have you ever been involved in a similar experience? If so, how was this one different?
+   - no
 2. Do you think this type of selection process is suitable for you?
+   - why not ? stress test... self evaluation... it can do a lot of damage but in the same time it can help improving your skills
 3. What's your opinion about the complexity of the requirements?
+   - whit each code line it become harder and harder :)))
 4. What did you enjoy the most?
+   - the moment whe you finally find the solution for a problem that almost make you give up
 5. What was the most challenging part of this anti hackathon?
+   - polishing the aplication :)))
 6. Do you think the time limit was suitable for the requirements?
+   - depends :)) but i want more time to be able to be proud of it
 7. Did you find the resources you were sent on your email useful?
+   - it was to shot the time to check them but ass far as i see there are some usefule information that i need to read after hackatlon (or september) ends
 8. Is there anything you would like to improve to your current implementation?
+   - evrithing
 9. What would you change regarding this anti hackathon?
-
+    - not sure for now
