@@ -2,7 +2,8 @@
 
 namespace helpers;
 
-class PregMatch {
+class PregMatch
+{
 
     public const ALOWED_CARACTERS = "/^[a-zA-Z0-9-_ ]*$/";
     public const ALOWED_NUMBERS = "/^[0-9.,]*$/";

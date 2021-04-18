@@ -23,17 +23,47 @@ For each of the following functionalities, please tick the box if you implemente
 [x] Brew coffee \
 [x] Drink coffee \
 [x] Create programme \
-    - after testing i will complete this
-[x] Brain meltdown\
-[ ] Delete programme \
-[ ] Book a programme 
+- administratorul are puterea de a ceea, sterge si edita programele facute
+   - insert\
+     - are nevoie de nume, timpul de inceput / sfarsit si id-ul camerei in care activitatea se desfasoara
+   - update\
+     - la fel ca la insert doar ca are nevoie de id
+     - output similar
+   - delete\
+      - sterge activitatea in functie de id
+
+[x] Create Room \
+- administratorul are puterea de a ceea sterge si edita camerele facute
+   - insert\
+     - introduce nr. camerei si nr. de locuri disponibile
+   - update\
+     - la fel ca insert doar ca are nevoie de id-ul camerei existente
+   - delete\
+      - sterge camera in functie de id 
+   
+[x] User Booking
+- creeatea prograamarilor pe aza de cnp  
+  - insert
+    - introduce data timpul de inceput / final CNP-ul id-ul programului si al camerei (id-urile are trebui sa se faca utomat in spatele unui select)
+  - update
+      - la fel ca insert doar ca are nevoie de id-ul camerei existente
+   - delete
+      - sterge programarea in functie de id
+  
+[ ] Adding more admins \
+- nu a fost implemntata dar urmeaza in cele 2 saptamani, pana primim un raspuns, sa fie adaugata
+[ ] Book a programme
+  
+[x] Data output\
+- output-ul e format din succsess care indica daca actiunea a fost executata cu succes sau nu si mesajele de eroare in cazul in care datele introduse de admin sunt gresite incomplete sau nu respecta un anumit tipar
+- este facut in asa fel incat sa respecte o structura acolo unde a fost posibil (e posibil sa fie peste tot aceeasi structura dar mai am de lucrat si timpul nu e suficient)
 
 ##### Business rules
 Please highlight all the validations and mechanisms you identified as necessary in order to avoid inconsistent states and apply the business logic in your application.
-
+ - Tot ce se afla in folderul Validators si in Hellpers este critic si ajuta la uniformizarea out-putului cat si la parametrizarea codului 
 ##### 3rd party libraries (if applicable)
 Please give a brief review of the 3rd party libraries you used and how/ why you've integrated them into your project.
-- just personal code written for other application in order to no reinvent the well for the 3rd time 
+- Doar codul scris de mine pentru proiectele care le am inca active si in curs de terminare 
 ##### Environment
 Please fill in the following table with the technologies you used in order to work at your application. Feel free to add more rows if you want us to know about anything else you used.
 | Name | Choice |
@@ -68,3 +98,4 @@ In this section, please let us know what is your opinion about this experience a
    - evrithing
 9. What would you change regarding this anti hackathon?
     - not sure for now
+   - ca o nota extra :))) de unde am inceput sa renunt la engleza se reimte oboseala :))) nu ma crucificati pentru asta :)))

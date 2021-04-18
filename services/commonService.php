@@ -3,7 +3,8 @@
 
 namespace services;
 
-
+// tot ce e aici trebuie mutat in validatoare. a fost unul dintre momentele in care nun am avut inspiratie si a fost o rezolvare rapida
+// nu ma mandres cu ce e mai jos
 class commonService
 {
     static function checkTime($NTS, $NTE, $existingPrograms)
@@ -16,6 +17,9 @@ class commonService
                 $flag['false'][] = false;
             }
         }
+
+        // doar cu aceasta mica chestiuta care mi-a venit dupa 5 ore de incercare a validarii orarului pentru progame;
+
         if(!isset($flag['false'])){
            $flag = true;
         } else {

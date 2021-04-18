@@ -6,7 +6,7 @@ namespace helpers;
 
 class Errors
 {
-
+// lista constantelor neterminata practic de aici schimbi toate mesajele de horoare din aplicatie;
     public const ERROR_INVALID_CHARACTERS = "invalid characters";
     public const ERROR_INVALID_SELECT = "invalid select";
     public const ERROR_INVALID_NUMBERS = "invalid numbers";

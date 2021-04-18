@@ -17,7 +17,8 @@ class DataBase
         $this->connection = $connection;
     }
 
-    public function selectALL(){
+    public function selectALL()
+    {
         $sql = "SELECT * FROM $this->tableName";
         $query = $this->connection->prepare($sql);
         $query->execute();

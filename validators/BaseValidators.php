@@ -61,7 +61,9 @@ class BaseValidators
             $this->messages = Errors::ERROR_USER_LOGIN_FAIL;
         }
     }
-// nu imi asum aceasta funstie. a fost copiata
+
+// nu imi asum aceasta functie. a fost copiata
+
     public function CNPvalidator($postData) // functie de validare
     {
         for ($i = 0; $i <= 12; $i++) // imparte fiecare cifra a cnp-ului intr-un vector
@@ -90,6 +92,10 @@ class BaseValidators
     {
         return $this->messages;
     }
+// si mai jos e minunatia de cod care am incercat sa o scriu si nu are nici un rezultat
+// mai ma nevoie de exercitii cu foreach-uri ca sa le pot stapanii. pana acum am zgariat doar suprafata
+// si nu il sterg ca vreau sa continui dupa ce ce termina  hackatlon-ul sa ma simt multumit ca am reusit sa fac validarea cnp-ului
+// de aseemenea vreau sa il parametrizez incat sa pot sa validez cnp-urile si din alte tari;
 
 //    public function CNPvalidator($postData)
 //    {

@@ -23,14 +23,10 @@ if (!empty($_GET['_url'])) {
         } else {
 //            header("location: /$fileName/index");
         }
-
     }
-
 }
 
 $className = "controllers" . "\\" . ucfirst(strtolower($fileName)) . "Controller";
-//Debug::pre($className);
-//Debug::pre(class_exists($className));
 if (class_exists($className)) {
     $controlInstance = new $className;
     if (method_exists($controlInstance, $action . "Action")) {
@@ -47,8 +43,15 @@ if (class_exists($className)) {
     } else {
         header("location: /$fileName");
     }
-//    Debug::pre($response);
+
+    // $response este disponibila in front-end si contine messajele de eroare pentru campuri
+    Debug::pre($response);
+
 //    include_once 'view/index.php';
 } else {
     header("location: /");
 }
+
+// ce e scris mai sus nu este 100% opera mea. am fost ajutat... deci nu se ia in considerare :D
+// si a fost copiat de la un lat proiect care e momentan in paragina si astept designul
+// cam inteleg ce se intampla dar nu stapanesc inca tot
